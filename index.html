@@ -1,28 +1,64 @@
 <style>
-
-.item {
-    background-color: #6B5E42;
-    color: #33312B;
+  .item {
+    background-color: #6b5e42;
+    color: #33312b;
     padding: 5px;
     border-radius: 7px;
-    text-decoration: none; 
-}
+    text-decoration: none;
+  }
 </style>
-<body style="margin: 10; padding: 0px; background-color: #C09537">
+<body
+  style="
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #c09537;
+  "
+>
   <div
     style="
       display: flex;
-      flex-direction: row;
-      gap:8px;
-      background-color: #EAA71B;
-      margin: 10;
-      padding: 12px;
-      border-radius: 10px;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
     "
   >
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        background-color: #eaa71b;
+        margin: 10;
+        padding: 12px;
+        border-radius: 10px;
+      "
+    >
       <a class="item" href="windows.html">windows</a>
       <a class="item" href="chrome.html">chrome</a>
       <a class="item" href="html.html">HTML</a>
       <a class="item" href="vscode.html">VSCODE</a>
+    </div>
+    <div
+      style="
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        color: #33312b;
+        text-decoration: none;
+      "
+    >
+      <span style="color: #33312b; text-decoration: none">Creators:&nbsp</span
+      ><a
+        href="https://github.com/valerialemishko"
+        style="color: #33312b; text-decoration: none"
+        >Lera</a
+      ><span style="color: #33312b; text-decoration: none">&nbspand&nbsp</span>
+      <a
+        href="https://github.com/NastyBaster"
+        style="color: #33312b; text-decoration: none"
+        >Anton</a
+      >
+    </div>
   </div>
 </body>
