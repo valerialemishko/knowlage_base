@@ -1,0 +1,35 @@
+* {
+  /* background-color: red; */
+}
+
+body {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px;
+  background-color: #c09537;
+}
+
+.item {
+  background-color: #6b5e42;
+  color: #33312b;
+  padding: 5px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.global-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  background-color: #eaa71b;
+  margin: 10;
+  padding: 12px;
+  border-radius: 10px;
+}
