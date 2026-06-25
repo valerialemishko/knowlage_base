@@ -1,11 +1,13 @@
-* {
-  /* background-color: red; */
+html {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   overflow: hidden;
   box-sizing: border-box;
   padding: 0px;
+  margin: 0;
   background-color: #c09537;
 }
 
@@ -17,6 +19,11 @@ body {
   text-decoration: none;
 }
 
+.active {
+  text-decoration: wavy underline;
+  background-color: #897b1d;
+}
+
 .global-container {
   display: flex;
   flex-direction: column;
@@ -26,10 +33,34 @@ body {
 
 .nav-container {
   display: flex;
-  flex-direction: row;
   gap: 8px;
   background-color: #eaa71b;
   margin: 10;
   padding: 12px;
   border-radius: 10px;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: #33312b;
+  text-decoration: none;
+}
+
+.creators-link {
+  color: #33312b;
+  text-decoration: none;
+}
+
+.icon {
+  height: 30px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+p {
+  padding: 0 50px 0 50px;
 }
